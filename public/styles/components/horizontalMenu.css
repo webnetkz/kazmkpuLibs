@@ -1,0 +1,47 @@
+* {
+    --horizontalMenuBg: linear-gradient(189deg,#1697bf 3%,#68cef5 98%);
+    --horizontalMenuWidth: 100%;
+    --horizontalMenuLinkColor: rgb(255, 255, 255);
+    --horizontalMenuLinkActiveBg: #10576d;
+    --horizontalMenuLinkActiveColor: rgb(250, 250, 250);
+    --horizontalMenuHoverBg: #555;
+    --horizontalMenuHightBtn: 50px;
+}
+.HorizontalMenu {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: var(--horizontalMenuWidth);
+    background: var(--horizontalMenuBg);
+}
+.HorizontalMenu li a {
+    display: block;
+    color: var(--horizontalMenuLinkColor);
+    padding: 0 16px;
+    text-decoration: none;
+    height: var(--horizontalMenuHightBtn);
+    line-height: var(--horizontalMenuHightBtn);
+}
+.HorizontalMenu li a.activeItem {
+    background: var(--horizontalMenuLinkActiveBg);
+    color: var(--horizontalMenuLinkActiveColor);
+}
+.HorizontalMenu li a:hover:not(.activeItem) {
+    background: var(--horizontalMenuLinkActiveBg);
+    color: var(--horizontalMenuLinkActiveColor);
+}
+
+/* Mobile styles */
+@media only screen and (max-width: 1080px) {
+    .HorizontalMenu {
+        flex-direction: column;
+    }
+    .HorizontalMenu li a {
+        border-bottom: 2px solid var(--horizontalMenuLinkColor);
+    }
+    .HorizontalMenu li a.activeItem {
+        border-bottom: 2px solid var(--horizontalMenuLinkActiveBg);
+    }
+}

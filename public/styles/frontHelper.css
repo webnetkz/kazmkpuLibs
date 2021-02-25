@@ -1,0 +1,42 @@
+
+/*#################################################################################################################
+###                                                                                                             ###
+###  |#####       ##       ############/      |###|            |##\           |###|        /##################/ ###
+###  |######     ####     ####/               |###|            |####\        |###|                    |##|      ###
+###    ######   ######   ####/    /#######/   |###|            |#######\     |###|      /#########/   |##|      ###
+###     ###### ######## ####/   /###/         |##########\     |##########\  |###|     /###/          |##|      ###
+###      ##################/   /###/          |###########\    |#################|    /###/           |##|      ###
+###       #######/  ######/   |############/  |###|    ####\   |####|   \########|   |############/   |##|      ###
+###        #####/    ####/    |####/          |###|   #####/   |####|      \#####|   |####/           |##|      ###
+###         ###/      ##/      \##########/   |###########/    |####|         \##|    \##########/    |##|      ###
+###                                                                                                             ###
+###                                                                                              ©2021          ###
+#################################################################################################################*/
+
+/* Components */
+@import url("components/scroll.css");
+@import url("components/dropdown.css");
+@import url("components/horizontalMenu.css");
+@import url("components/verticalMenu.css");
+@import url("components/leftNav.css");
+/* Elements */
+@import url("elements/button/button.css");
+@import url("elements/input/input.css");
+* {
+    /* Variables */
+    --transitionDuration: 500ms;
+
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition-duration: var(--transitionDuration);
+    outline: none;
+    transition-duration: 600ms;
+}
+html, body {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    background-color: rgb(255, 255, 255);
+}
+

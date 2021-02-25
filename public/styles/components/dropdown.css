@@ -1,0 +1,41 @@
+* {
+    --colorLink: #ffffff;
+    --colorBtn: #4CAF50;
+    --colorBtnHover: #3e8e41;
+    --colorBgLink: #f1f1f1;
+    --colorText: #000000;
+}
+.dropdown button {
+    background-color: var(--colorBtn);
+    color: var(--colorLink);
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+.dropdown > div {
+    transform: scale(0);
+    position: absolute;
+    background-color: var(--colorBgLink);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown > div > a {
+    color: var(--colorText);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    border-bottom: 2px solid var(--colorLink);
+}
+.dropdown > div > a:hover {
+    background-color: var(--colorLink);
+    border-bottom: 2px solid var(--colorBtn);
+    padding-left: 20px;
+}
+.dropdown:hover div {
+    transform: scale(1)
+}
+.dropdown:hover button {
+    background-color: var(--colorBtnHover)
+}  

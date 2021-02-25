@@ -1,0 +1,26 @@
+/* Text Align */
+.TAcenter {text-align: center}
+.TAleft {text-align: left}
+.TAright {text-align: right}
+.TAjustify {text-align: justify}
+/* Vertival Align */
+.VAtop {vertical-align: top}
+.VAmiddle {vertical-align: middle}
+.VAbottom {vertical-align: bottom}
+.VAsub {vertical-align: sub}
+.VAsuper {vertical-align: super}
+/* Text Decoration */
+.TDnone {text-decoration: none}
+.TDoverline {text-decoration: overline}
+.TDlt {text-decoration: line-through}
+.TDunderline {text-decoration: underline}
+.TDtransparent {text-decoration: transparent}
+/* Text Transfrom */
+.TTuppercase {text-transform: uppercase}
+.TTlowercase {text-transform: lowercase}
+.TTcapitalize {text-transform: capitalize}
+.TTunset {text-transform: unset}
+/* Font Variant */
+.FVsc {font-variant: small-caps}
+.FVnormal {font-variant: normal}
+

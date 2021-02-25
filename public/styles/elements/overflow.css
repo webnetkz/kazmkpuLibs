@@ -1,0 +1,9 @@
+/* Overflow */
+.Oscroll {overflow: scroll}
+.Ohidden {overflow: hidden}
+/* Overflow X*/
+.OXscroll {overflow-x: scroll}
+.OXhidden {overflow-x: hidden}
+/* Overflow Y*/
+.OYscroll {overflow-y: scroll}
+.OYhidden {overflow-y: hidden}

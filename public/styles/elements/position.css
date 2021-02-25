@@ -1,0 +1,5 @@
+/* Position */
+.Psticky {position: sticky}
+.Pfixed {position: fixed}
+.Prelative {position: relative}
+.Pabsolute {position: absolute}

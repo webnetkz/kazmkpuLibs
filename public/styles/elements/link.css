@@ -1,0 +1,10 @@
+* {
+    --aLink: black;
+    --aVisited: black;
+    --aHover: black;
+    --aActive: black;
+}
+.link:link {color: var(--aLink)}
+.link:visited {color: var(--aVisited)}
+.link:hover {color: var(--aHover)}
+.link:active {color: var(--aActive)}

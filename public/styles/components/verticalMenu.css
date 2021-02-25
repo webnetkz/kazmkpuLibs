@@ -1,0 +1,35 @@
+* {
+    --verticalMenuBg: #f1f1f1;
+    --verticalMenuWidth: 200px;
+    --verticalMenuLinkColor: #000;
+    --vertivalMenuLinkActiveBg: #4CAF50;
+    --vertivalMenuLinkActiveColor: white;
+    --vertivalMenuHoverBg: #555;
+    --vertivalMenuHoverColor: white;
+}
+.VerticalMenu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: var(--verticalMenuWidth);
+    background-color: var(--verticalMenuBg);
+}
+.VerticalMenu li a {
+    display: block;
+    color: var(--verticalMenuLinkColor);
+    padding: 8px 16px;
+    text-decoration: none;
+}
+.VerticalMenu li a.activeItem {
+    background-color: var(--vertivalMenuLinkActiveBg);
+    color: var(--vertivalMenuLinkActiveColor);
+}
+.VerticalMenu li a:hover:not(.activeItem) {
+    background-color: var(--vertivalMenuLinkActiveBg);
+    color: var(--vertivalMenuLinkActiveColor);
+}
+
+/* Mobile styles */
+@media only screen and (max-width: 1080px) {
+
+}
